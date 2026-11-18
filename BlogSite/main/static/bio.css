@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(139, 0, 139);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: darkorchid;
+    border-bottom: 1px black;
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}

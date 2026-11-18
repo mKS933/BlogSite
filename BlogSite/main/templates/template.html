@@ -1,0 +1,16 @@
+{% extends 'main/template.css' %}
+
+{% load static %}
+
+{% block title %}
+My templates
+{% endblock %}
+
+{% block header %}
+<h2>My templates</h2>
+{% endblock %}
+
+{% block links %}
+<link rel="stylesheet" href="{% static 'main/template.css' %}">
+{% endblock %}
+
